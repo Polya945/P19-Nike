@@ -2,7 +2,7 @@ from pprint import pprint
 
 
 def load_data():
-    with open('D:\\prog\\[P 19] Nike\\Nike_shoes_2023-04-16.csv', 'r', encoding='utf-8') as file:
+    with open('Nike_shoes_2023-04-16.csv', 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
     headers = lines[0].strip().split(',')
